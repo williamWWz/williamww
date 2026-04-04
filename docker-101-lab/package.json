@@ -1,0 +1,12 @@
+{
+  "name": "docker-101-lab",
+  "version": "1.0.0",
+  "description": "Simple Node app for Docker 101 lab",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
