@@ -1,0 +1,11 @@
+name: Vulnerable Issue Logger
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  print-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Issue Title
+        run: echo "Issue title is ${{ github.event.issue.title }}"
