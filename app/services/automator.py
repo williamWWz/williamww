@@ -1,7 +1,7 @@
 import os
 import time
 from playwright.sync_api import sync_playwright
-from playwright_stealth import stealth_sync
+from playwright_stealth import stealth
 from bs4 import BeautifulSoup
 from app.services.llm_assistant import LLMAssistant
 
@@ -23,7 +23,7 @@ class GreenhouseAutomator:
                 page = context.new_page()
 
                 # Apply stealth to avoid basic bot detection
-                stealth_sync(page)
+                stealth(page)
 
                 page.goto(job_url)
 
