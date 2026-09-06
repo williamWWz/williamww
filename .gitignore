@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-app/data/*.pdf
-app/data/*.json
-app/data/*.png
-!app/data/.gitkeep
