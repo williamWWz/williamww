@@ -1,0 +1,8 @@
+.git
+.github
+**/__pycache__
+**/*.pyc
+**/node_modules
+.env
+app/data/*
+!app/data/.gitkeep

@@ -1,6 +1,10 @@
 __pycache__/
 *.pyc
+node_modules/
+.env
 app/data/*.pdf
 app/data/*.json
 app/data/*.png
 !app/data/.gitkeep
+
+app/data/*.db
